@@ -63,3 +63,27 @@ variable "ssh_location" {
   description  = "bastion host sg variable"
   type         = string
 }
+
+# db snapshot identifier variables
+variable "snapshot_identifier" {
+  description  = "db snapshot identifier variable"
+  type         = string
+}
+
+# db instance class variables
+variable "db_instance_class" {
+  description  = "db instance class variable"
+  type         = string
+}
+
+# db instance identifier variables
+variable "db_instance_identifier" {
+  description  = "db instance identifier variable"
+  type         = string
+}
+
+# db multi az variables
+variable "db_multi_az_deployment" {
+  description  = "db multi az variables"
+  type         = bool
+}

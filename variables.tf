@@ -58,3 +58,8 @@ variable "private_subnet_db_az2" {
   type         = string
 }
 
+# bastion host sg variables
+variable "ssh_location" {
+  description  = "bastion host sg variable"
+  type         = string
+}

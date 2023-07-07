@@ -87,3 +87,15 @@ variable "db_multi_az_deployment" {
   description  = "db multi az variables"
   type         = bool
 }
+
+# acm variables
+variable "domain_name" {
+  description  = "domain name variables"
+  type         = string
+}
+
+variable "alternative_name" {
+  description  = "alternative name variables"
+  type         = string
+}
+

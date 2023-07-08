@@ -121,3 +121,9 @@ variable "container_image" {
   description  = "container image uri"
   type         = string
 }
+
+# R53 variables
+variable "record_name" {
+  description  = "sub domain name"
+  type         = string
+}
